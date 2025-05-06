@@ -1,0 +1,31 @@
+.animate-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%)
+}
+
+.hero {
+    width: 100vw;
+    height: 100vw;
+    /* padding: 20px; */
+}
+
+.hero-imgs {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.website-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
