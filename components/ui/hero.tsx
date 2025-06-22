@@ -1,8 +1,7 @@
-'use client';
+"use client";
 
 import { gsap } from "gsap";
-import Header from "./shared/header";
-import Footer from "./footer";
+
 import "@/assets/styles/animate.css";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
@@ -15,48 +14,78 @@ import { useRef } from "react";
 // import img7 from '@/assets/img7.png'
 
 const Hero = () => {
-const hero = useRef(null)
-    useGSAP(()=>{
-    gsap.to(".hero-imgs > img", {
-        clipPath: "polygon(100% 0%, 0% 0%, 0% 100%, 100% 100% ",
-        duration: 1,
-        ease: "power4.inOut",
-        stagger: 0.25,
-        delay: .3
-    })
-    gsap.to(".hero", {
-       scale: 1.3,
-        duration: 3,
-        ease: "power3.inOut",
-        stagger: 0.25,
-        delay: 0
-    })
-    // gsap.to(".hero-imgs > img", {
-    //     display: "none",
-    //     delay: 5
-    // })
-    }, )
+	// const tl = useRef();
+	// useGSAP(() => {
+	// 	gsap.to(".hero", {
+	// 		scale: 1.3,
+	// 		duration: 3,
+	// 		ease: "power3.inOut",
+	// 		stagger: 0.25,
+	// 		delay: 0.3,
+	// 	});
+	// 	tl.current = gsap
+	// 		.timeline()
+	// 		.to(".hero-imgs > img", {
+	// 			clipPath: "polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%)",
+	// 			duration: 1,
+	// 			ease: "power4.inOut",
+	// 			stagger: 0.25,
+	// 			delay: 0.3,
+	// 		})
+	// 		.to(".hero-imgs > img", {
+	// 			clipPath: "polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%)",
+	// 			duration: 1.5,
+	// 			ease: "power4.inOut",
+	// 			stagger: 0.25,
+	// 		})
+	// 		.to(".hero", {
+	// 			display: "none",
+	// 		})
+	// 		.to(".website-content", {
+	// 			display: "block",
+	// 		});
+	// });
 
+	return (
+		<>
+			{/* <div className="hero">
+				<div className="hero-imgs">
+					<img
+						src="/images/img1.png"
+						alt=""
+						className="animate-img"
+					/>
+					<img
+						src="/images/img2.png"
+						alt=""
+						className="animate-img"
+					/>
+					<img
+						src="/images/img3.png"
+						alt=""
+						className="animate-img"
+					/>
+					<img
+						src="/images/img5.png"
+						alt=""
+						className="animate-img"
+					/>
+					<img
+						src="/images/img7.png"
+						alt=""
+						className="animate-img"
+					/>
+				</div>
+			</div> */}
+			<div className="website-content">
+				<img
+					src="/images/Hero-img.png"
+					alt=""
+					className="animate-img2"
+				/>
+			</div>
+		</>
+	);
+};
 
-    return ( 
-        <>
-        <div className="hero" >
-           <div className="hero-imgs">
-            <img src='/images/img1.png' alt='' className="animate-img"/>
-            <img src='/images/img2.png' alt='' className="animate-img" />
-            <img src='/images/img3.png' alt='' className="animate-img" />
-            <img src='/images/img4.png' alt='' className="animate-img" />
-            <img src='/images/img5.png' alt='' className="animate-img" />
-            <img src='/images/img6.png' alt='' className="animate-img" />
-            <img src='/images/IMG_9209.jpeg' alt='' className="animate-img" />
-         
-           </div>
-        </div>
-        {/* <div className="website-content">
-            ROOT
-        </div> */}
-        </> 
-    );
-}
- 
 export default Hero;

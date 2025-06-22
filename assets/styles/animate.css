@@ -3,12 +3,24 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    object-position: right bottom;
     clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%)
+}
+.animate-img2 {
+    /* height: 100%; */
+    width: 100%;
+    object-fit: cover;
+    object-position:  center;
+    /* z-index: 0;
+    opacity: 0; */
 }
 
 .hero {
     width: 100vw;
-    height: 100vw;
+    /* height: 100vw; */
+    position: absolute;
+    top: 0;
+    left: 0;
     /* padding: 20px; */
 }
 
@@ -21,11 +33,8 @@
 }
 
 .website-content {
-    position: absolute;
     height: 100%;
     width: 100%;
-    top: 0;
-    left: 0;
     z-index: 1;
-
+    /* display: none; */
 }

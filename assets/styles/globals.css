@@ -171,9 +171,9 @@ html.dark .upload-field .text-white {
 }
 
 body, html {
-  width: 100vw;
-  height: 100vw;
-  /* background-color: yellow; */
+  /* background: radial-gradient(farthest-corner at 40px 40px, #ebe4e1, #645449);
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover; */
 
 }
