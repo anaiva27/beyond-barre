@@ -1,10 +1,10 @@
 "use client";
 
-import { gsap } from "gsap";
+// import { gsap } from "gsap";
 
 import "@/assets/styles/animate.css";
-import { useGSAP } from "@gsap/react";
-import { useRef } from "react";
+// import { useGSAP } from "@gsap/react";
+// import { useRef } from "react";
 // import img1 from '@/assets/img1.png'
 // import img2 from '@/assets/img2.png'
 // import img3 from '@/assets/img3.png'
