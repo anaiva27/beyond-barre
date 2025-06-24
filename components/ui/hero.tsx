@@ -79,7 +79,7 @@ const Hero = () => {
 			</div> */}
 			<div className="website-content">
 				<img
-					src="/images/New-Hero-6-23.png"
+					src="/images/Hero.png"
 					alt=""
 					className="animate-img2"
 				/>
