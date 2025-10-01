@@ -911,19 +911,18 @@ html.dark .upload-field .text-white {
 }
 .headline {
   color: #a49386;
-  font-weight: 900;
   text-transform: uppercase;
   font-family: "Arial Black";
-  font-size: clamp(25px, 2.7vw, 42px);
+  font-size: clamp(25px, 2.3vw, 42px);
   line-height: 120%;
   margin-bottom: 30px;
 }
 .subtitle {
   color: #fff;
-  font-weight: 600;
+  color: #454242;
   font-family: "Arial Black";
-  font-size: clamp(20px, 2vw, 35px);
-  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.472);
+  font-size: clamp(19px, 1.8vw, 30px);
+  text-transform: uppercase;
 }
 .body {
   color: #454242;
@@ -934,6 +933,9 @@ html.dark .upload-field .text-white {
 .strong {
   font-family: "Arial Black";
 }
+.white {
+  color: white !important;
+}
 .main-wrapper {
   width: 100%;
   max-width: 1700px;
@@ -943,7 +945,7 @@ html.dark .upload-field .text-white {
   width: 100%;
   background-image: url("/assets/bg2.png");
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 950px;
@@ -963,12 +965,11 @@ html.dark .upload-field .text-white {
   align-items: center;
 }
 .menu-item {
-  color: white;
+  color: #454242;
   text-transform: uppercase;
   font-weight: 700;
   font-family: "Arial Black";
   font-size: clamp(16px, 1.5vw, 22px);
-  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.659);
 }
 .logo {
   width: 15%;
@@ -1052,7 +1053,7 @@ html.dark .upload-field .text-white {
   align-items: flex-start;
   justify-content: space-between;
 }
-.section2 .float-bottom {
+.float-bottom {
   position: absolute;
   bottom: 30px;
   left: 50%;
@@ -1079,6 +1080,96 @@ html.dark .upload-field .text-white {
   width: 40%;
   bottom: 0;
   right: 0;
+}
+.section3 {
+  height: 100%;
+  background-color: #e5d2cb;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.float-top {
+  position: absolute;
+  width: 50%;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 1;
+}
+.intro3-left {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 50px 30px;
+  padding-top: 5%;
+  padding-bottom: 12%;
+  gap: 30px;
+  width: 33%;
+  z-index: 5;
+}
+.intro3-right {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  padding: 50px 30px;
+  padding-top: 5%;
+  gap: 30px;
+  width: 33%;
+  z-index: 5;
+}
+.intro3-right .subtitle,
+.intro3-left .subtitle {
+  margin-bottom: -20px;
+  margin-top: 15px;
+}
+.section4 {
+  height: fit-content;
+  background-color: #ede0db;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.model4 {
+  position: absolute;
+  left: 0;
+  top: -10px;
+  bottom: unset;
+  width: 90%;
+}
+.intro4-left {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 50px 30px;
+  padding-top: 5%;
+  padding-bottom: 12%;
+  gap: 30px;
+  width: 25%;
+  z-index: 5;
+}
+.intro4-right {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  padding: 50px 30px;
+  padding-top: 5%;
+  padding-bottom: 7%;
+  gap: 1.7vw;
+  width: 30%;
+  z-index: 5;
 }
 @property --tw-rotate-x {
   syntax: "*";
