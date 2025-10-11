@@ -913,9 +913,9 @@ html.dark .upload-field .text-white {
   color: #a49386;
   text-transform: uppercase;
   font-family: "Arial Black";
-  font-size: clamp(25px, 2.3vw, 42px);
+  font-size: clamp(27px, 2.5vw, 45px);
   line-height: 120%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .subtitle {
   color: #fff;
@@ -932,6 +932,9 @@ html.dark .upload-field .text-white {
 }
 .strong {
   font-family: "Arial Black";
+}
+.short {
+  width: 80%;
 }
 .white {
   color: white !important;
@@ -1059,6 +1062,7 @@ html.dark .upload-field .text-white {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  width: 60%;
 }
 .intro2 {
   height: fit-content;
@@ -1067,7 +1071,7 @@ html.dark .upload-field .text-white {
   align-items: flex-start;
   padding: 50px 30px;
   padding-top: 5%;
-  gap: 15px;
+  gap: clamp(15px, 1.7vw, 35px);
   width: 55%;
 }
 .triangle2 {
@@ -1166,9 +1170,47 @@ html.dark .upload-field .text-white {
   text-align: right;
   padding: 50px 30px;
   padding-top: 5%;
-  padding-bottom: 7%;
-  gap: 1.7vw;
+  padding-bottom: 10%;
+  gap: 1.4vw;
   width: 30%;
+  z-index: 5;
+}
+.section5 {
+  height: fit-content;
+  background-color: #ede0db;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.model5 {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  bottom: unset;
+  width: 70%;
+}
+.intro5-left {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 30px 30px;
+  padding-top: 4%;
+  padding-bottom: 14%;
+  gap: 20px;
+  width: 48%;
+  z-index: 5;
+}
+.intro5-list {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.4vw;
   z-index: 5;
 }
 @property --tw-rotate-x {

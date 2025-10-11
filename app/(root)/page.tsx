@@ -61,18 +61,25 @@ export default function Home() {
 						<div className="headline">
 							Barre Isn’t Just a Workout — It’s a Glow-Up.{" "}
 						</div>
-						<div className="body">
+						<div className="body short">
 							Want to feel stronger, stand taller, and move like a dancer — even
 							if you’ve never danced a day in your life?{" "}
 						</div>
-						<div className="body">
-							<span className="strong">That’s the magic of barre.</span>
+						<div className="body short">
+							<span className="strong">
+								That’s the magic of barre.
+								<br />
+								Join us for a class and experience how truly empowering movement
+								can feel.
+							</span>
 						</div>
-						<div className="body">
+						<div className="body short">
 							Barre is the secret sauce behind toned arms, sculpted legs, lifted
 							posture, and that effortless,{" "}
 							<span className="strong">ageless glow</span>. And at Barre &
 							Beyond, Natalia’s signature method takes it to the next level.
+							{/* Discover how this mindful workout transforms not just your body,
+							but your energy and mood, too. */}
 						</div>
 						<div className="subtitle">
 							This isn’t your average fitness class. <br />
@@ -164,6 +171,49 @@ export default function Home() {
 						<div className="body">• Promotes a youthful, ageless look</div>
 						<div className="body">• Builds strength without bulk</div>
 						<div className="body">• Supports mind-body connection</div>
+						<div className="body">• And so much more!</div>
+					</div>
+				</div>
+
+				<div className="section5">
+					<img
+						src="/assets/model5.png"
+						className="model5"
+						alt="Natalia in sportswear"
+					/>
+					<div className="intro5-left">
+						<div className="headline ">
+							What Makes <br /> Barre & Beyond <br />
+							... Beyond?
+						</div>
+						<div className="body">
+							Natalia isn’t just a barre instructor — she’s a classically
+							trained dancer and{" "}
+							<span className="strong">award-winning choreographer</span> who
+							knows how to move a body into its most beautiful shape.
+						</div>
+						<div className="intro5-list body">
+							Her signature method mixes:
+							<div className="body">
+								• Dance-inspired flow that feels more like choreography than
+								exercise
+							</div>
+							<div className="body">
+								• Sneaky cardio bursts to wake up your metabolism
+							</div>
+							<div className="body">
+								• Lymphatic-focused movement to support anti-aging and natural
+								detox
+							</div>
+							<div className="body">
+								• Mind-body connection so you{"'"}re not just stronger — you’re
+								more centered, more confident, more you.
+							</div>
+						</div>
+					</div>
+					<div className="subtitle float-bottom">
+						This is a full-body, soul-fueled experience that tones and
+						reconnects you <br /> with your power.
 					</div>
 				</div>
 			</div>
