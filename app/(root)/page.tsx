@@ -1,4 +1,4 @@
-import Hero from "@/components/ui/hero";
+// import Hero from "@/components/ui/hero";
 import Menu from "@/components/ui/shared/menu";
 
 export default function Home() {
@@ -104,7 +104,7 @@ export default function Home() {
 
 				<div className="section3">
 					<img
-						src="/assets/model3-2.png"
+						src="/assets/model3-111.png"
 						className="model3 float-top"
 						alt="Natalia in sportswear"
 					/>
@@ -216,8 +216,30 @@ export default function Home() {
 						reconnects you <br /> with your power.
 					</div>
 				</div>
+
+				<div className="section6">
+					<div className="img6-left">
+						<img
+							src="/assets/model6-2.png"
+							className="model6"
+							alt="Natalia in sportswear"
+						/>
+					</div>
+					<div className="intro6-right">
+						<div className="headline ">
+							Your transformation doesn’t have to wait!
+						</div>
+						<div className="subtitle">
+							Let’s move, pulse, and rise — together. Come try a class. You’ll
+							never look at barre the same way again.
+						</div>
+						<div className="body">
+							{"[ "}Click Here to Connect with Us {" ]"}
+						</div>
+					</div>
+				</div>
 			</div>
-			<Hero />
+			{/* <Hero /> */}
 		</>
 	);
 }

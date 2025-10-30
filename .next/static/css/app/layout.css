@@ -959,10 +959,10 @@ html.dark .upload-field .text-white {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
+  padding: 15px 50px 25px 30px;
 }
 .menu-items {
-  width: 50%;
+  width: 45%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1212,6 +1212,40 @@ html.dark .upload-field .text-white {
   align-items: flex-start;
   gap: 1.4vw;
   z-index: 5;
+}
+.section6 {
+  height: fit-content;
+  background-color: #ede0db;
+  padding-top: 80px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.model6 {
+  object-fit: cover;
+  width: 100%;
+}
+.intro6-right {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  padding: 0px 50px 0 0;
+  margin-top: -8%;
+  gap: 20px;
+  width: 39%;
+  z-index: 5;
+}
+.intro6-right div.body {
+  text-decoration: underline;
+}
+.img6-left {
+  width: 60%;
 }
 @property --tw-rotate-x {
   syntax: "*";

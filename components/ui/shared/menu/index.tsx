@@ -11,7 +11,7 @@ const Menu = () => {
 			</div>
 			<div className="menu-items">
 				<div className="menu-item">Welcome</div>
-				<div className="menu-item">Classes</div>
+				{/* <div className="menu-item">Classes</div> */}
 				<div className="menu-item">Our Mission</div>
 				<div className="menu-item">Contact</div>
 			</div>
