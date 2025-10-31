@@ -1,18 +1,26 @@
 import React from "react";
+import Link from "next/link";
 
 const Menu = () => {
 	return (
 		<div className="menu-wrapper">
 			<div className="logo">
-				<img
-					src="/assets/Logo-2.png"
-					alt="logo Barre & Beyond"
-				/>
+				<Link href="/">
+					<img
+						src="/assets/Logo-2.png"
+						alt="logo Barre & Beyond"
+					/>
+				</Link>
 			</div>
 			<div className="menu-items">
-				<div className="menu-item">Welcome</div>
+				<div className="menu-item">
+					<Link href="/">Welcome</Link>
+				</div>
 				{/* <div className="menu-item">Classes</div> */}
-				<div className="menu-item">Our Mission</div>
+				<div className="menu-item">
+					{" "}
+					<Link href="/mission">Our Mission</Link>
+				</div>
 				<div className="menu-item">Contact</div>
 			</div>
 		</div>

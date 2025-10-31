@@ -11,9 +11,9 @@ export default function Home() {
 					<div className="hero-container">
 						<div className="outline-box">
 							<div className="main-headline">
-								Sculpt <br />
-								Stretch <br />
 								Strengthen <br />
+								Stretch <br />
+								Sculpt <br />
 							</div>
 							<div className="main-subtitle">
 								A full-body barre method designed to tone, stretch and energize

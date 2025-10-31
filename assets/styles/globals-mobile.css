@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+body,
+html {
+}
+
+@media (max-width: 1000px) {
+	.logo {
+		width: 50%;
+	}
+
+	.menu-items {
+		display: none;
+	}
+
+	.hero-section2 img {
+		width: 80%;
+		min-width: 370px;
+		margin-right: -10vw;
+		margin-top: -150px;
+	}
+
+	.hero-wrapper {
+		min-height: 780px;
+		overflow: hidden;
+		height: 80vh;
+	}
+
+	.hero-container {
+		margin-top: -45px;
+	}
+
+	.socials {
+		display: none;
+	}
+
+	.main-headline {
+		font-size: clamp(30px, 3vw, 50px);
+	}
+
+	.outline-box {
+		padding-top: 20px;
+		padding-left: 20px;
+		justify-content: flex-start;
+	}
+
+	.outline-box .main-subtitle {
+		width: 45%;
+	}
+}
