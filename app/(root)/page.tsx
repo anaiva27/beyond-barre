@@ -1,4 +1,5 @@
 // import Hero from "@/components/ui/hero";
+import Footer from "@/components/ui/footer";
 import Menu from "@/components/ui/shared/menu";
 
 export default function Home() {
@@ -238,8 +239,8 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
+				<Footer />
 			</div>
-			{/* <Hero /> */}
 		</>
 	);
 }

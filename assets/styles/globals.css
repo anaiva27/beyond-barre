@@ -271,8 +271,53 @@ html {
 	font-size: clamp(16px, 1.5vw, 22px);
 }
 
+.flex-align-start {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.footer-wrapper {
+	background-color: #454242;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 25px;
+	gap: 50px;
+}
+
+.footer-wrapper div.headline {
+	margin-bottom: -5px;
+}
+
+.footer-dev span {
+	color: #c2bdba;
+}
+
 .logo {
 	width: 15%;
+}
+
+.footer-logo {
+	width: 190px;
+}
+
+.footer-outro {
+	text-align: right;
+}
+
+.footer-outro span {
+	display: block;
+	text-align: right;
+	color: #c2bdba;
+}
+
+.footer-call-out {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
 }
 
 .logo img {
@@ -288,7 +333,6 @@ html {
 }
 
 .hero-section1 {
-	/* padding-top: 100px; */
 	position: relative;
 	z-index: 5;
 }
