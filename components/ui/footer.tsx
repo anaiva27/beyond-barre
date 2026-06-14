@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
 	const currentYear = new Date().getFullYear();
 	return (
@@ -7,6 +9,7 @@ const Footer = () => {
 					<div className="headline ">Barre & Beyond</div>
 					<div>A modern way to achieve ageless living</div>
 				</div>
+
 				<div className="footer-outro">
 					7670 Homewood Place
 					<br />
@@ -15,12 +18,16 @@ const Footer = () => {
 			</div>
 
 			<div className="flex-between">
-				<div></div>
-				<div className="footer-outro">
+				<div className="footer-outro-left">
 					<span>Precision</span>
 					<span>Creative Flow</span>
 					<span>Ageless Results</span>
 					<span>Innovation</span>
+				</div>
+				<div className="footer-outro">
+					<span>Tuesday</span>
+					<span>Thursday</span>
+					<span>Saturday</span>
 				</div>
 			</div>
 
@@ -29,7 +36,12 @@ const Footer = () => {
 					ALL RIGHTS RESERVED © {currentYear} Barre & Beyond
 				</div>
 				<div className="footer-dev">
-					<span>Developed by —</span> A27 WEB LAB
+					<Link
+						href="https://a27-web-lab.vercel.app/"
+						target="_blank"
+					>
+						<span>Developed by —</span> A27 WEB LAB
+					</Link>
 				</div>
 			</div>
 		</footer>

@@ -78,11 +78,11 @@ const Hero = () => {
 				</div>
 			</div> */}
 			<div className="website-content">
-				<img
-					src="/images/Hero-6-27.png"
+				{/* <img
+					src="/images/new-hero-full-minified.png"
 					alt=""
 					className="animate-img2"
-				/>
+				/> */}
 			</div>
 		</>
 	);

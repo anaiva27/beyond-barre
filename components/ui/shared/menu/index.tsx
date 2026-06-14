@@ -14,14 +14,15 @@ const Menu = () => {
 			</div>
 			<div className="menu-items">
 				<div className="menu-item">
-					<Link href="/">Welcome</Link>
+					Tuesday
+					{/* <Link href="/">Welcome</Link> */}
 				</div>
 				{/* <div className="menu-item">Classes</div> */}
 				<div className="menu-item">
-					{" "}
-					<Link href="/mission">Our Mission</Link>
+					Thursday
+					{/* <Link href="/mission">Our Mission</Link> */}
 				</div>
-				<div className="menu-item">Contact</div>
+				<div className="menu-item">Saturday</div>
 			</div>
 		</div>
 	);

@@ -234,8 +234,8 @@ export default function Home() {
 							Let’s move, pulse, and rise — together. Come try a class. You’ll
 							never look at barre the same way again.
 						</div>
-						<div className="body">
-							{"[ "}Click Here to Connect with Us {" ]"}
+						<div className="">
+							{"[ "}Every Tuesday, Thursday and Saturday {" ]"}
 						</div>
 					</div>
 				</div>

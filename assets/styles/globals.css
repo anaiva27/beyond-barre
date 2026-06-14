@@ -307,6 +307,12 @@ html {
 	text-align: right;
 }
 
+.footer-outro-left span {
+	display: block;
+	text-align: left;
+	color: #c2bdba;
+}
+
 .footer-outro span {
 	display: block;
 	text-align: right;
