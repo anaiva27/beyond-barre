@@ -1,42 +1,42 @@
 .animate-img {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: right bottom;
-    clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%)
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: right bottom;
+	clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%);
 }
 .animate-img2 {
-    /* height: 100%; */
-    width: 100%;
-    object-fit: cover;
-    object-position:  center;
-    /* z-index: 0;
+	/* height: 100%; */
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	/* z-index: 0;
     opacity: 0; */
 }
 
 .hero {
-    width: 100vw;
-    /* height: 100vw; */
-    position: absolute;
-    top: 0;
-    left: 0;
-    /* padding: 20px; */
+	width: 100vw;
+	/* height: 100vw; */
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* padding: 20px; */
 }
 
 .hero-imgs {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    z-index: 0;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	z-index: 0;
 }
 
 .website-content {
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    max-width: 1900px;
-    margin: 0 auto;
-    /* display: none; */
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	max-width: 1400px;
+	margin: 0 auto;
+	/* display: none; */
 }
